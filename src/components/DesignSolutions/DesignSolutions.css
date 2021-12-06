@@ -1,0 +1,74 @@
+.designsolution__title {
+  margin-bottom: 18px;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+.designsolution__title1 {
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.designsolution__h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+.designsolution__h5 {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.designsolution__list {
+  margin: 20px 0px 20px 0px;
+  font-size: 12px;
+}
+.designsolution {
+  display: flex;
+  justify-content: center;
+}
+
+.designsol__col {
+  animation: designsol__col 1s ease-in-out;
+}
+@keyframes designsol__col {
+  from {
+    margin-left: -500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.DS__li {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0px 10px 0px;
+}
+.designingsolutions__text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.designingsolutions__image {
+  margin-bottom: 30px;
+  width: 80%;
+  height: 340px;
+}
+.DS__secondary__image {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.DS__secondary__col {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 35px;
+}
+.DS__desc {
+  text-align: center;
+  margin-bottom: 40px;
+}

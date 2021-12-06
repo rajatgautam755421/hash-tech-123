@@ -1,0 +1,30 @@
+.card__body {
+  text-align: center;
+}
+.Ba__icon {
+  color: #7d50e8;
+}
+.BA__card__title {
+  font-size: 35px;
+}
+.BA__card__text {
+  font-size: 20px;
+}
+
+.BA__card__main:hover > .Ba__icon {
+  color: #0b5ed7;
+}
+.BA__card__main {
+  border-radius: 25px;
+  background: #e6e9ec;
+  box-shadow: 6px -6px 12px #989a9c, -6px 6px 12px #ffffff;
+  animation: CardMain 2s ease-in-out;
+}
+@keyframes CardMain {
+  from {
+    margin-left: -500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,47 @@
+.RubyDev__title {
+  margin-bottom: 18px;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+.RubyDev__title1 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.RubyOnRails__list {
+  margin: 20px 0px 20px 0px;
+  font-size: 16px !important;
+  text-align: left;
+}
+.RubyOnRails {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.RoR__li {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0px 10px 0px;
+}
+.ror__container {
+  margin-left: auto;
+  margin-right: auto;
+  animation: RubyOnRails__col 1s ease-in-out;
+}
+@keyframes RubyOnRails__col {
+  from {
+    margin-left: -500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.rubyonrails__image {
+  width: 80%;
+  height: 440px;
+}

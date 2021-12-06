@@ -1,0 +1,67 @@
+.footer__main {
+  min-height: 330px;
+  background: #000000;
+  padding-top: 40px;
+}
+.footer__main__h3 {
+  color: white;
+
+  font-size: 30px;
+}
+.footer__main__h5 {
+  font-size: 18px;
+}
+.footer__main__email__icon,
+.footer__main__phone__icon,
+.footer__main__address__icon {
+  margin-right: 10px;
+}
+.footer__main__email,
+.footer__main__phone,
+.footer__main__address {
+  display: flex;
+  align-items: center;
+  color: white !important;
+  margin-top: 30px;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin-right: 20px;
+}
+.newsletter__main {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 10px;
+  margin-left: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .newsletter__main {
+    margin-left: 28px;
+  }
+}
+.footer__row {
+  padding-bottom: 30px;
+}
+.glassMorphism {
+  color: white;
+  height: 13rem;
+  overflow: hidden;
+  width: 24.5rem;
+  margin-bottom: 2rem;
+}
+@media all and (max-width: 600px) {
+  .glassMorphism {
+    margin-top: 1.5rem !important;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

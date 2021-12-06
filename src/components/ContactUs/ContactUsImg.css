@@ -1,0 +1,30 @@
+.image__text {
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  animation: image__text 2s ease-in-out;
+}
+
+@keyframes image__text {
+  from {
+    margin-left: -800px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.Contact__main__h3 {
+  margin: 20px 0px 20px 0px;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.Contactus__image {
+  height: 440px;
+  width: 300px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,38 @@
+.Process__list {
+  list-style: none;
+}
+.process__items {
+  margin-top: 20px;
+}
+.progress__items__icon1,
+.progress__items__icon2,
+.progress__items__icon3 {
+  height: 50px !important;
+  width: 100px !important;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.4s transform cubic-bezier(0.155, 1.105, 0.5, 2), 0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  margin: 40px 0px 40px 0px;
+  width: 100%;
+  color: #7d50e8;
+  margin-right: 30px;
+  border-radius: 15px;
+  background: #e6e9ec;
+  box-shadow: 6px -6px 12px #989a9c, -6px 6px 12px #ffffff;
+}
+.progress__items__icon1:hover,
+.progress__items__icon2:hover,
+.progress__items__icon3:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  color: #0c5fd7;
+}
+.process__list__li1 {
+  display: flex;
+}
+/* .process__list__text {
+  margin-top: 70px;
+} */

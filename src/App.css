@@ -1,0 +1,11 @@
+* {
+  padding-right: 0px;
+  margin-right: 0px;
+  box-sizing: border-box;
+}
+.main__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 220px;
+}

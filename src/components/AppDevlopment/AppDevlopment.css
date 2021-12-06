@@ -1,0 +1,68 @@
+.appdev__text {
+  margin-top: 20px;
+}
+.appdev__title {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.AD__h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+.AD__h5 {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.AD__unorderedlist {
+  margin-top: 20px;
+}
+.ad__h5 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.appdev__col {
+  animation: appdev__col 1s ease-in-out;
+}
+@keyframes appdev__col {
+  from {
+    margin-left: -500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.Appdev__image {
+  width: 80%;
+  height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+.appdev__text {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+.appdev__img__secondary {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.appdev__card__secondary {
+  margin-left: auto;
+  margin-right: auto;
+}
+.appDev__row {
+  margin-top: 60px;
+}
+
+.appdev__lists {
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+.aboutus__card__main {
+  height: 580px;
+  animation: CardMain 2s ease-in-out;
+  width: 80%;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.4s transform cubic-bezier(0.155, 1.105, 0.5, 2), 0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+
+  margin-bottom: 30px;
+}
+@keyframes CardMain {
+  from {
+    margin-left: -500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.card__body {
+  text-align: center;
+}
+.card__main__image {
+  height: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutus__card__text {
+  text-align: left;
+}
+
+.aboutus__card__main:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}

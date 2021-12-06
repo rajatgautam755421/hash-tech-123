@@ -1,0 +1,23 @@
+.BA__card__main {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.4s transform cubic-bezier(0.155, 1.105, 0.5, 2), 0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  margin: 40px 0px 40px 0px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.BA__card__main:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.Ba__main__h3 {
+  margin-top: 60px;
+  font-size: 31px;
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}

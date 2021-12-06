@@ -1,0 +1,24 @@
+.mainservices__title {
+  margin-bottom: 18px;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.Card__row {
+  animation: Card__row 1s ease-in-out;
+}
+@keyframes Card__row {
+  from {
+    margin-left: -500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.mainservices__h4 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}

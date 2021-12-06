@@ -1,0 +1,37 @@
+.vision {
+  box-shadow: 5px 8px 5px 2px #888888;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.About__main__h3 {
+  margin: 20px 0px 5px 0px;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.mission {
+  box-shadow: 5px 8px 5px 2px #888888;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.values {
+  box-shadow: 5px 8px 5px 2px #888888;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.ourapproach {
+  margin-top: 80px;
+  box-shadow: 5px 8px 5px 8px #888888;
+  margin-bottom: 80px;
+}
+.first-image {
+  width: 100% !important;
+  margin-left: -15px;
+}
+.aboutus__card__col {
+  margin-top: 30px;
+}

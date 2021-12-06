@@ -1,0 +1,25 @@
+.Main__div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+.Button {
+  color: #1f66b7;
+  width: 170px !important;
+  height: 36px;
+  border-radius: 5px;
+}
+.Button__h4 {
+  color: white;
+  font-size: 16px;
+}
+.Button__Info {
+  display: flex;
+}
+.Button__icon {
+  color: white;
+  margin-right: 5px;
+}
+.Button__icon:hover {
+  color: tomato;
+}

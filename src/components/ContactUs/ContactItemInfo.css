@@ -1,0 +1,21 @@
+.location {
+  display: flex;
+  margin-top: 20px;
+}
+.contactinfo__col {
+  background-color: #e8ebee;
+}
+.contactinfo__icon {
+  height: 34px !important;
+  width: 34px !important;
+  color: #2f81d2 !important;
+  margin-right: 10px;
+}
+.contactinfo__text {
+  font-size: 30px;
+}
+.contactInfo__address {
+  font-size: 17px;
+  margin-top: 10px;
+  padding-left: 20px;
+}

@@ -1,0 +1,66 @@
+.strictagileprocess {
+  box-shadow: 3px 5px 3px 8px #888888;
+}
+.strictagileprocess-title {
+  text-align: left;
+  margin-top: 10px;
+}
+.strictagileprocess-para {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.pragmaticapproachpresectiveperformance {
+  box-shadow: 3px 5px 3px 8px #888888;
+}
+
+.pragmaticapproachpresectiveperformance-title {
+  text-align: left;
+  margin-top: 10px;
+}
+.pragmaticapproachpresectiveperformance-para {
+  text-align: left;
+  margin-top: 5px;
+}
+.HWD__main__h3 {
+  margin: 20px 0px 5px 0px;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(212, 71%, 42%);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.HWD__main__img1 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.HWD__main__img2 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.HWD__main__row {
+  margin-left: auto;
+  margin-right: auto;
+}
+.HWD__row1,
+.HWD__row2 {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.4s transform cubic-bezier(0.155, 1.105, 0.5, 2), 0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  width: 81%;
+}
+.HWD__row1:hover,
+.HWD__row2:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.HWD__image__main {
+  width: 90%;
+  height: 385px;
+  margin-left: auto;
+  margin-right: auto;
+}
